@@ -1,0 +1,10 @@
+{
+	"code": {
+		"objective": {
+			"cmd": "scoreboard objective add {0} {2}|dummy {1}|{0}",
+			"requiredparameters": 1,
+			"parameters": 3
+		}
+	},
+	"commands": ["say"]
+}
