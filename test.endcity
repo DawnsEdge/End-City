@@ -1,5 +1,7 @@
+--namespace:test
+
 say hi
-objective
-object
-obj
-lol
+objective test Test
+objective dmg Damage minecraft.custom:minecraft.damage_taken
+add @p test 0
+set @p dmg 0

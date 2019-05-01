@@ -1,9 +1,24 @@
 {
 	"code": {
 		"objective": {
-			"cmd": "scoreboard objective add {0} {2}|dummy {1}|{0}",
-			"requiredparameters": 1,
-			"parameters": 3
+			"cmd": "scoreboard objectives add {0} {2}|dummy \" {1}|{0} \"",
+			"requiredarguments": 1,
+			"arguments": 3
+		},
+		"add": {
+			"cmd": "scoreboard players add {0} {1} {2}",
+			"requiredarguments": 3,
+			"arguments": 3
+		},
+		"set": {
+			"cmd": "scoreboard players set {0} {1} {2}",
+			"requiredarguments": 3,
+			"arguments": 3
+		},
+		"remove": {
+			"cmd": "scoreboard players remove {0} {1} {2}",
+			"requiredarguments": 3,
+			"arguments": 3
 		}
 	},
 	"commands": ["say"]
