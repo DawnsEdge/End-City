@@ -1,9 +1,8 @@
 --namespace:test
---name:test
+--name:testt
 
 say hi
 objective test Test
 objective dmg Damage minecraft.custom:minecraft.damage_taken
 add @p test 0
 set @p dmg 0
-as @p say hi
