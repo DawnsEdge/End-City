@@ -5,3 +5,5 @@ Lang
 Properties:
 namespace
 tag
+tick
+start
